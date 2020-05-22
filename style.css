@@ -1,0 +1,105 @@
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+.box {
+    height: 10rem;
+    display: block;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.blue {
+    background-color: rgb(0, 0, 90);
+}
+
+a {
+    font-size: 18pt;
+    color: white;
+    margin-right: 20px;
+}
+
+.bodyContent {
+    padding: 2em;
+}
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44pt;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    color: white;
+    margin-top: -60px;
+}
+
+.profilePic {
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#teaching {
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 5px grey;
+    margin-right: 40px;
+}
+
+p {
+    font-size: 13.6pt;
+}
+
+.teachingPics img:hover {
+    transition: ease-in-out 300ms;
+    opacity: 0.5;
+}
+
+.teachingPics {
+    margin-top: 30rem;
+}
+
+.static_storefront {
+    margin-top: 30rem;
+}
+
+#socialMedia {
+    margin-top: 28rem;
+    margin-left: 4rem;
+}
+
+#socialMedia2 {
+    margin-top: 48rem;
+    margin-left: 4rem;
+}
+
+.thirdProject {
+    margin-top: 30rem;
+}
+
+#foot {
+    font-size: 20pt;
+    color: black;
+    bottom: 0;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
